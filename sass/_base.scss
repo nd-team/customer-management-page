@@ -1,0 +1,104 @@
+@charset "UTF-8";
+html, body, div, span, nav, header, iframe,
+h1, h2, h3, h4, h5, h6, p, section, footer,
+a, form, address, big, cite, code,
+del, dfn, em, img, ins, fieldset, q, s, samp,
+small, strike, strong, sub, sup, label, var,
+b, u, i, input, dl, dt, dd, ol, ul, li, figure, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/*搜索更改时候:点击时候*/
+* ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+$fontColor: #ffffff;
+$bigNavColor: #202028;
+$bigFontColor: #bfbec9;
+$fontFamily: "Arial","Microsoft Himalaya";
+$navFontSize: 12px;
+$navSize: 18px;
+$secTwoBg: #2f3140;
+$secInp: #46485F;
+$secTopColor: #f4f4f6;
+$useColor:#b3aef5;
+$useBg:#636fe7;
+* ::-webkit-scrollbar-thumb {
+  background-color: #c2c2c2;
+  background-clip: padding-box;
+  border: 1px solid #979797;
+  min-height: 28px;
+  border-radius: 3px;
+}
+
+* ::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #636363;
+  background-color: #929292;
+}
+
+html {
+  height: 100%;
+  background-color: #000000;
+}
+
+body {
+  height: 100%;
+}
+
+html, body {
+  font-family: $fontFamily;
+  background: #fdfdfd;
+}
+
+form, fieldset {
+  border: 0 none;
+}
+
+ol, ul li {
+  list-style: none;
+}
+
+img {
+  border: 0 none;
+  max-width: 100%;
+}
+
+input, select {
+  outline: none;
+  font-family: $fontFamily;
+}
+
+button {
+  border: 0;
+  font-family: $fontFamily;
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
+}
+
+i, em {
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
